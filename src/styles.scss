@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    div.box1, div.box2, div.box3, div.box4, div.box5, div.box6, div.box7{
+        display: flex;
+        width: 20vw;
+        height: 15vh;
+        background-color: white;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        border-radius:20px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    div.menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
+    section.section{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    div.container{
+        margin: 0;
+        padding: 0;
+    }
+
+    div.boxes{
+
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    div.box1, div.box2, div.box3, div.box4, div.box5, div.box6, div.box7{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50vw;
+        height: 20vh;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    div.image{
+        visibility: hidden;
+        display: flex;
+        height: 0;
+        width: 0;
+    }
+    div.menu a{
+        padding-right: 20px;
+    }
+
+    .imagesIcon{
+        visibility: hidden;
+    }
+}
+
+

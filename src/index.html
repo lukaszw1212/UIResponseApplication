@@ -6,8 +6,74 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <app-root></app-root>
+<body class="bg-[#A3CEF1]">
+  <my-app></my-app>
+  <div class = "container flex justify-between bg-gray-700 text-white p-4">
+    <div class="logo flex justify-start items-center">
+      <img src="logo2.png" alt="Logo" class="h-[75px] w-[75px]"/>
+      <p>roGRC 3.3.40</p>
+    </div>
+    <div class="menu w-full flex justify-end space-x-5 items-center">
+      <a>
+        <span class="ml-2 hover:text-black active:text-red-600"> Konto Techniczne RO </span>
+      </a>
+      <a >
+        <span class="ml-2 hover:text-black active:text-red-600"> Strona domowa </span>
+      </a>
+      <a>
+          <span class="ml-2 hover:text-black active:text-red-600"> Komunikator </span>
+      </a>
+      <a >
+          <span class="ml-2 hover:text-black active:text-red-600"> Konto </span>
+      </a>
+      <a>
+          <span class="ml-2 hover:text-black active:text-red-600" > Język </span>
+      </a>
+      <a >
+          <span class="ml-2 hover:text-black active:text-red-600"> Kontakt </span>
+      </a>
+    </div>  
+  </div>
+  <section class="section p-20 pt-20 flex justify-between bg-[#A3CEF1]">
+    <div class="image flex items-center"> 
+      <img src="rogrc.png" alt="Image" class="h-[420px] w-[352px]">
+    </div>
+    <div class ="boxes grid grid-cols-2 gap-1">
+      <div class ="box1 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="calendar_16320097.png" alt="PLAN DZIAŁALNOŚCI" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>PLAN DZIAŁALNOŚCI</span>
+      </div>
+      <div class ="box2 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="businesswoman_5121883.png" alt="ZARZĄDZANIE RYZYKIEM" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>ZARZĄDZANIE RYZYKIEM</span>
+      </div>
+      <div class ="box3 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="reputation_912930.png" alt="OCENA KONTROLI ZARZĄDCZEJ" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>OCENA KONTROLI ZARZĄDCZEJ </span>
+      </div>
+      <div class ="box4 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="book_10215059.png" alt="BAZA WIEDZY" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>BAZA WIEDZY</span>
+      </div>
+      <div class ="box5 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="notepad_16680291.png" alt="RAPORTY" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>RAPORTY</span>
+      </div>
+      <div class ="box6 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="customer-relationship-management_10926892.png" alt="ADMINISTRACJA" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>ADMINISTRACJA</span>
+      </div>
+      <div class ="box7 flex flex-col items-center justify-center bg-white rounded-lg w-[30vw] h-[20vh] mb-10">
+        <img src="diagram_134660.png" alt="STRUKTURA ORGANIZACYJNA" class="w-[60px] h-[60px] mb-2 imagesIcon">
+        <span>STRUKTURA ORGANIZACYJNA</span>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center bg-[#A3CEF1] p-4">
+    <p>Copyright 2024 © <a href="https://redocean.pl/" target="_blank" class="hover:text-black">RedOcean</a></p>
+  </footer>
+  
 </body>
 </html>
